@@ -1543,7 +1543,7 @@ func assertRequiredParametersSet(c *Config, errs *packersdk.MultiError) {
 		c.managedImageStorageAccountType = virtualmachines.StorageAccountTypesStandardLRS
 	case string(virtualmachines.StorageAccountTypesPremiumLRS):
 		c.managedImageStorageAccountType = virtualmachines.StorageAccountTypesPremiumLRS
-	case: string(virtualmachines.StorageAccountTypesPremiumZRS):
+	case string(virtualmachines.StorageAccountTypesPremiumZRS):
 		c.managedImageStorageAccountType = virtualmachines.StorageAccountTypesPremiumZRS
 	case string(virtualmachines.StorageAccountTypesStandardSSDLRS):
 		c.managedImageStorageAccountType = virtualmachines.StorageAccountTypesStandardSSDLRS
